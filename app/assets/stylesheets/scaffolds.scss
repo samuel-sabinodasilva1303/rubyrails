@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+footer {
+  text-transform: uppercase;
+  width: 40px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.format {
+  padding: 10px;
+  height: 30px;
+  font-size: 25px;
+  color: #FFF;
+  text-align: center;
+  background-color: #000;
+}
+
+.devbody {
+  padding: 5px;
+  color: #000;
+  text-align: center;
+}
+
+.edit_links{
+  text-align: center;
+  background-color: #0000FF;
+  padding: 30px 30px;
+  margin: 30px;
+  line-height: 15px;
+  border-radius: 10px;
+  transition: all 3s;
+  
+}
+
+.edit_links a {
+  margin: 30px;
+  color: #000;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 3s;
+}
+
+.edit_links .div:hover{
+  color: white;
+  padding: 20px;
+  transition: all 3s;
+  opacity: 0.5;
+}
+
+div:hover a{
+  color: #fff;
+  font-size: 30px;
+  transition: all 3s;
+}
+
+.amb-dev {
+  text-align: center;
+  margin: 24% 25% 0 25%;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  background-color: #0000FF;
+  border-radius: 12px;
+  opacity: 0.5;
+}

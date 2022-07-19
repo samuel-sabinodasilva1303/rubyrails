@@ -1,0 +1,28 @@
+<div class="format">
+Moedas
+</div>
+<p id="notice"><%= notice %></p>
+<b>Data: </b><%= date_br(Date.today) %>
+
+<table>
+      
+    <tr>
+      <th>Descrição</th>
+      <th>Sigla</th>
+      <th>Imagem</th>
+    </tr>
+        <% @coins.each do |coin| %>
+      <tr>
+        <td><%= coin.description %></td>
+        <td><%= coin.acronym %></td>
+        <td><%= image_tag coin.url_image, size: "30x30" %></td>
+        <td><%= link_to 'Mostrar', coin %></td>
+        <td><%= link_to 'Editar', edit_coin_path(coin) %></td>
+        <td><%= link_to 'Excluir', coin, method: :delete, data: { confirm: 'Confirme a exclusão?' } %></td>
+      </tr>
+    <% end %>
+</table>
+
+<br>
+
+<%= link_to 'Nova moeda', new_coin_path %>

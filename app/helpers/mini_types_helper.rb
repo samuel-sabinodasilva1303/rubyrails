@@ -1,0 +1,2 @@
+module MiniTypesHelper
+end

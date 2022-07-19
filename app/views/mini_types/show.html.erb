@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @mini_type.name %>
+</p>
+
+<p>
+  <strong>Acrônimo:</strong>
+  <%= @mini_type.acromyn %>
+</p>
+
+<%= link_to 'Editar', edit_mini_type_path(@mini_type) %> |
+<%= link_to 'Volta', mini_types_path %>

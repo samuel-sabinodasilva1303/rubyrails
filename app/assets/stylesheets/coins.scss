@@ -1,0 +1,25 @@
+// Place all the styles related to the Coins controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table{
+    margin: 0 auto;
+    text-aling: center;
+    text-decoration: inherit;
+}
+th {
+    padding: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+a{
+   text-decoration: inherit;
+   color: black;
+   transition: 2s;
+    padding: 12px;
+}
+
+a:hover{
+    color: red;
+    transition: 2s;
+}
+
